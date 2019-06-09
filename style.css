@@ -1,0 +1,120 @@
+body{
+	font-family:'Poppins', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.section-padding{
+	padding: :100px 0;
+}
+.section-header{
+	padding-bottom:0px;
+	padding-top: 50px;
+}
+.navbar-brand{
+	color:#fff !important;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+.nav-area{
+	background: #262626;
+	 background-color: rgba(0,0,0,.9);
+}
+.navbar-nav .nav-link{
+	padding-right: 0;
+	padding-left: 0;
+	color:#fff !important;
+	font-weight:bold;
+}
+.nav-item{
+	color: #ffff;
+	padding:0 10px;
+	text-transform:uppercase;
+}
+
+.slider-area{
+	background-image: url(images/banner.jpg);
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+	height:100vh;
+	color:#fff;
+	position: relative;
+}
+.slider-area:before{
+	content:'';
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background: linear-gradient(360deg,#000,transparent);
+}
+.slider-text h1{
+	font-size: :45px;
+	font-weight: bold;
+}
+.slider-text a{
+	padding: 10px 15px;
+	background-color: #2988b9;
+	color: #fff;
+	display: inline-block;
+	margin-top:20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+.slider-text{
+	text-align: center;
+	padding-top: 20%;
+}
+
+/*about-area*/ 
+.about-img img{
+	width:73%;
+}
+.item-text{
+	padding-right:0px;
+}
+.about-img{
+	padding-right: 50;
+}
+.item-text h4{
+	margin-bottom: 0px;
+}
+
+/*stats-area*/
+.stats-area{
+	background-image: url(images/jose-llamas-1290306-unsplash.jpg);
+	background-attachment: fixed;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	z-index:1;
+}
+.stats-area:before{
+	content:'';
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background: linear-gradient(180deg,#000,transparent);
+	z-index:-1;
+}
+
+.single-stats{
+	color:#fff;
+	text-align:center;
+}
+.single-stats i{
+	margin-bottom: 0px;
+}
+.single-stats h2{
+	font-weight: bold;
+	font-size: 40px;
+}
+.single-stats p{
+	font-family: 'Audiowide', cursive;
+}
