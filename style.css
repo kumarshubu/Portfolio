@@ -9,6 +9,12 @@ html{
 }
 .section-header{
 	padding-bottom:0px;
+}
+.section-header h2{
+	padding-bottom:0px;
+	padding-top: 50px;
+}
+.section-header h3{
 	padding-top: 50px;
 }
 .navbar-brand{
@@ -117,4 +123,132 @@ html{
 }
 .single-stats p{
 	font-family: 'Audiowide', cursive;
+}
+.single-service p{
+	text-align: center;
+	padding:0 0;
+}
+.single-service  h2{
+	text-align: center;
+	margin: 15px 0;
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+.services-area{
+	text-align: center;
+}
+.single-service{
+	border:1px solid #ddd;
+	padding:30px 20px;
+	margin-bottom: 6px;	
+}
+.single-service:hover{
+	background: #262626;
+	color:#fff;
+	transition: 0.6s;
+}
+
+/*award area*/
+.award-area{
+	position: relative;
+	background-image: url(images/stats.jpg);
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position:center center;
+	z-index:1;
+	text-align: center;
+}
+.award-area:before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:linear-gradient(90deg,#000,transparent);
+	z-index: -1;
+}
+.single-award h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Audiowide', cursive;
+}
+.single-award a{
+	text-decoration:none;
+	display: inline-block;
+	background:#2980b9;
+	color:#fff;
+	padding: 10px 30px;
+	margin-top: 25px;
+	border-radius: 50px;
+	text-transform: uppercase;
+}
+
+/*portfolio area*/
+.single-work img{
+	width:210px;
+	height: 210px;
+}
+.single-work{
+	margin-bottom: 45px;
+}
+.portfolio-area .section-padding{
+	padding-bottom: 30px;
+}
+
+/*testimonal-area*/
+.img-area img{
+	height: 320px;
+	width: 320px;
+}
+.testimonial-area{
+	background-image:url(images/about2.jpg);
+	position:relative;
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position: center center;
+	z-index: 1;
+}
+.testimonial-area:before{
+	content:'';
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.9);
+	z-index: -1;
+}
+.single-test{
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	padding:15px 40px;
+	margin-bottom:100px;	
+ }
+.img-area{
+	width:100px;
+	height:100px;
+	display:inline-block;
+	border-radius:50%;
+	overflow:hidden;
+}
+.img-area img{
+	width: 100%;
+	height: 100%;
+}
+.single-test{
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px 40px;
+}
+.testimonial-area .section-header{
+	color:#fff;
+}
+.single-test h2{
+	font-family: 'Audiowide',cursive;
+	margin: 15px 0;
+	font-size: 25px;
 }
