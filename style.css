@@ -252,3 +252,85 @@ html{
 	margin: 15px 0;
 	font-size: 25px;
 }
+
+/*footer-area*/
+.footer-area 	{
+	background:#262626;
+	color:#fff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+/*responsive css*/
+
+@media only screen and(min-width: 768px) and (max-width: 991px){
+	.section-header h2{
+		font-size: 35px;
+		font-weight: bold;
+	}
+	.navbar-toggler-icon i.fa{
+		color:#fff;
+	}
+	.slider-text{
+		padding-top: 70%;
+	}
+	.about-img{
+		padding-right: 0;
+		margin-bottom: 30px;
+	}
+	.item-text{
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.section-header h2{
+		font-size:22px;
+		font-weight: bold;
+	}
+	.navbar-toggler-icon i.fa{
+		color:#fff;
+	}
+	.slider-text h1{
+		font-size:22px;
+	}
+	.slider-text{
+		padding-top: 50%;
+	}
+	.slider-text h2{
+		font-size:20px;
+	}
+	.slider-text a{
+		padding: 5px 10px;
+		font-size: 14px;
+	}
+	.item-text{
+		margin-top:30px;
+		font-size:20px;
+	}
+	.about-img{
+		padding-left:50px;
+	}
+	.item-text{
+		padding-left: 0;
+	}
+
+	.single-stats h2{
+		font-size: 30px;
+	}
+
+	.single-award h2{
+		padding-top: 50px;
+		font-size:18px;
+		line-height: 35px;
+	}
+
+	.single-award a{
+		padding: 5px 15px;
+		font-size: 14px;
+	}
+	.single-test{
+		padding: 15px 10px;
+		margin-bottom: 15px;
+	}
+}
