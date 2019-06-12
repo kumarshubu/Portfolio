@@ -15,7 +15,7 @@ html{
 	padding-top: 50px;
 }
 .section-header h3{
-	padding-top: 50px;
+	padding-top: 60px;
 }
 .navbar-brand{
 	color:#fff !important;
@@ -260,7 +260,30 @@ html{
 	padding: 30px 0;
 	text-align: center;
 }
+.single-form{
+	position: relative;
+	left: 50px;
+	padding-bottom: 100px;
+	padding-top: 30px;
+}
+.LI-profile-badge{
+	position: absolute;
+	left: -200px;
+	top:-85px;
+	animation-name: opac;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+}
 
+@keyframes opac{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
 /*responsive css*/
 
 @media only screen and(min-width: 768px) and (max-width: 991px){
