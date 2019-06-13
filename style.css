@@ -191,6 +191,7 @@ html{
 	height: 210px;
 }
 .single-work{
+	text-align: center;
 	margin-bottom: 45px;
 }
 .portfolio-area .section-padding{
@@ -254,7 +255,7 @@ html{
 }
 
 /*footer-area*/
-.footer-area 	{
+.footer-area{
 	background:#262626;
 	color:#fff;
 	padding: 30px 0;
@@ -263,7 +264,7 @@ html{
 .single-form{
 	position: relative;
 	left: 50px;
-	padding-bottom: 100px;
+	padding-bottom: 90px;
 	padding-top: 30px;
 }
 .LI-profile-badge{
@@ -286,7 +287,7 @@ html{
 }
 /*responsive css*/
 
-@media only screen and(min-width: 768px) and (max-width: 991px){
+@media only screen and (min-width: 768px) and (max-width: 991px){
 	.section-header h2{
 		font-size: 35px;
 		font-weight: bold;
@@ -303,6 +304,15 @@ html{
 	}
 	.item-text{
 		padding-left: 0;
+	}
+	.single-stats h2{
+		font-size: 30px;
+	}
+	.single-stats p{
+		font-size: 14px;
+	}
+	.single-test{
+		margin-bottom: 15px;
 	}
 }
 
@@ -356,4 +366,8 @@ html{
 		padding: 15px 10px;
 		margin-bottom: 15px;
 	}
+	.single-form{
+		left: 0px;
+	}
+
 }
