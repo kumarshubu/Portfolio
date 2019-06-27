@@ -1,0 +1,12 @@
+p.typed{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+p.typed:before{
+	text-align: center;
+	content: "i am a "
+}
+.typed{
+	display: inline;
+}
