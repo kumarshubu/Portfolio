@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="typed.css">
     <link rel="icon" href="images/tab-icon.png" type="image/gif" sizes="16x16"> 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet"> 
@@ -16,7 +17,21 @@
 	<div class="nav-area fixed-top">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light w-100">
-			  <a class="navbar-brand" href="#">Divinector</a>
+						<p class="typed"></p>
+						<script type="text/javascript" src="typed.js"></script>
+						<script type="text/javascript">
+							var typed = new Typed(".typed", {
+							  strings: ["web developer","guitarist","coder","meditator","tech-geek"],
+							  typeSpeed:40,
+							  backSpeed:30,
+							  startDelay:50,
+							  backDelay:500,
+							  fadein:false,
+							  smartBackspace:false,
+							  cursorChar:"_",
+							  loop:true
+							});	
+						</script>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon">
 			    	<i class="fa fa-bars"></i>
@@ -66,6 +81,7 @@
 				</div>
 			</div>
 		</div>				</div>
+
 	
 	<div id="about" class="about-area section-padding">
 		<div class="container">
@@ -74,6 +90,7 @@
 					<div class="section-header">
 						<h2>Who AM I</h2>
 						<p>A Little bit about what I do</p>
+
 					</div>
 				</div>
 			</div>
@@ -312,13 +329,13 @@
 					</div>
 				</div>
     		</div>
-    		<div class="col-md-8 col-sm-12 offset-md-2">
-				<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="shubham-kumar-573110111"><a class="LI-simple-link" href='https://in.linkedin.com/in/shubham-kumar-573110111?trk=profile-badge'>SHUBHAM KUMAR</a>
-					</div>
+    		<div class="col-md-4 col-sm-4 offset-md-4">
+				<center><div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="shubham-kumar-573110111"><a class="LI-simple-link" href='https://in.linkedin.com/in/shubham-kumar-573110111?trk=profile-badge'>SHUBHAM KUMAR</a>
+				</center></div>
 			</div>	 
 
     		<div class="row">
-    			<div class="col-md-8 offset-md-2">		
+    			<div class="col-md-8 offset-md-2 col-sm-12">		
     				<div class="single-form">
   						<form>
 						  <div class="form-group">
