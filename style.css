@@ -1,5 +1,6 @@
 body{
 	font-family:'Poppins', sans-serif;
+    overflow-x: hidden; 
 }
 html{
 	scroll-behavior: smooth;
@@ -12,7 +13,7 @@ html{
 }
 .section-header h2{
 	padding-bottom:0px;
-	padding-top: 50px;
+	padding-top: 65px;
 }
 .section-header h3{
 	padding-top: 60px;
@@ -260,7 +261,7 @@ html{
 .footer-area{
 	background:#262626;
 	color:#fff;
-	padding: 5px 0px;
+	padding: 0px 0px;
 	text-align: center;
 }
 .single-form{
