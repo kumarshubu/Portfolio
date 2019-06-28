@@ -144,6 +144,7 @@ html{
 	border:1px solid #ddd;
 	padding:30px 20px;
 	margin-bottom: 6px;	
+	transition: 0.5s;
 }
 .single-service:hover{
 	background: #262626;
@@ -196,6 +197,14 @@ html{
 .single-work{
 	text-align: center;
 	margin-bottom: 45px;
+	transition: 0.5s;
+	border: 1px solid #ddd;
+}
+.single-work:hover{
+	color: #fff;
+	background: #262626;
+	transition: 0.4s;
+	border: 5px solid #fff000;
 }
 .portfolio-area .section-padding{
 	padding-bottom: 30px;
@@ -213,6 +222,7 @@ html{
 	background-size:cover;
 	background-position: center center;
 	z-index: 1;
+	margin-top: 70px;
 }
 .testimonial-area:before{
 	content:'';
