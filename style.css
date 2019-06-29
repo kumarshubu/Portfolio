@@ -330,6 +330,9 @@ background: #fff;
 	.single-test{
 		margin-bottom: 15px;
 	}
+	.testimonial-area{
+	height: 1200px;
+}
 }
 
 @media only screen and (max-width: 767px){
