@@ -394,5 +394,8 @@ background: #fff;
 	animation-timing-function: linear;
 	animation-delay: 1s;
 }
+.testimonial-area{
+	height: 1200px;
+}
 
 }
