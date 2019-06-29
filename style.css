@@ -217,6 +217,7 @@ html{
 }
 .testimonial-area{
 	background-image:url(images/about2.jpg);
+	height: 640px;
 	position:relative;
 	-webkit-background-size:cover;
 	background-size:cover;
@@ -241,6 +242,10 @@ html{
 	padding:15px 40px;
 	margin-bottom:100px;	
  }
+.single-test:hover{
+color: #000;
+background: #fff;
+}
 .img-area{
 	width:100px;
 	height:100px;
