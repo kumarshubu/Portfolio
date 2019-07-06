@@ -79,13 +79,15 @@ html{
 
 /*about-area*/ 
 .about-img img{
-	width:73%;
+	width:75%;
+	padding-left: 100px;	
+	padding-top: 10px;
+}
+#name{	
+	padding-left: 170px;	
 }
 .item-text{
 	padding-right:0px;
-}
-.about-img{
-	padding-right: 50;
 }
 .item-text h4{
 	margin-bottom: 0px;
@@ -398,7 +400,7 @@ background: #fff;
 	animation-delay: 1s;
 }
 .testimonial-area{
-	height: 1200px;
+	height: 1220px;
 }
 
 }
