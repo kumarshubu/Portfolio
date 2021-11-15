@@ -6,7 +6,7 @@ html{
 	scroll-behavior: smooth;
 }
 .section-padding{
-	padding: :100px 0;
+	padding: 100px 0px;
 }
 .section-header{
 	padding-bottom:0px;
@@ -59,7 +59,7 @@ html{
 	background: linear-gradient(360deg,#000,transparent);
 }
 .slider-text h1{
-	font-size: :45px;
+	font-size: 45px;
 	font-weight: bold;
 }
 .slider-text a{
