@@ -61,7 +61,17 @@ html{
 .slider-text h1{
 	font-size: 45px;
 	font-weight: bold;
+	color: #fff;
 }
+
+.slider-text h5{
+	color: #fff;
+}
+
+.slider-text p{
+	color: #fff;
+}
+
 .slider-text a{
 	padding: 10px 15px;
 	background-color: #2988b9;
